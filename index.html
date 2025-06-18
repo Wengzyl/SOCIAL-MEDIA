@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wenwen</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="min-h-screen py-10 px-4 flex justify-center items-center bg-gray-900">
+    <div class="max-w-md w-full glassmorphism p-8 bg-opacity-50 bg-black rounded-xl">
+      <div class="flex flex-col items-center mb-8">
+        <div class="w-28 h-28 rounded-full overflow-hidden mb-4 profile-img">
+          <img src="wenwen.jpg" alt="profile" class="w-full h-full object-cover" />
+        </div>
+        <h1 class="text-white text-2xl font-bold mb-1">WenWen</h1>
+        <p class="text-white text-md opacity-80 mb-3">Social Media Account</p>
+        <p class="text-white text-sm text-center opacity-70 mb-4">Loading...</p>
+
+        <div class="flex space-x-3 mb-6">
+          <a
+            href="https://instagram.com/zyyylllll_"
+            target="_blank"
+            class="social-icon text-white p-2 rounded-full hover:bg-white hover:bg-opacity-20"
+          >
+            <i data-feather="instagram" class="w-5 h-5"></i>
+          </a>
+          <a
+            href="https://twitter.com/Dmusic1192749"
+            target="_blank"
+            class="social-icon text-white p-2 rounded-full hover:bg-white hover:bg-opacity-20"
+          >
+            <i data-feather="twitter" class="w-5 h-5"></i>
+          </a>
+          <a
+            href="https://github.com/Wengzyl"
+            target="_blank"
+            class="social-icon text-white p-2 rounded-full hover:bg-white hover:bg-opacity-20"
+          >
+            <i data-feather="github" class="w-5 h-5"></i>
+          </a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=wengzylcuibellas0@gmail.com"
+   target="_blank"
+   class="social-icon text-white p-2 rounded-full hover:bg-white hover:bg-opacity-20">
+  <i data-feather="mail" class="w-5 h-5"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="space-y-4">
+        <a
+          href="https://wengzyl.github.io/wenwen/" 
+   target="_blank"
+   class="link-card glassmorphism flex items-center p-4 rounded-xl text-white hover:bg-white hover:bg-opacity-10">
+  <i data-feather="globe" class="w-5 h-5 mr-3"></i>
+  <span>Website</span>
+        </a>
+
+        <a
+          href="https://www.youtube.com/@wengzylcuibellas859"
+          target="_blank"
+          class="link-card glassmorphism flex items-center p-4 rounded-xl text-white hover:bg-white hover:bg-opacity-10"
+        >
+          <i data-feather="youtube" class="w-5 h-5 mr-3"></i>
+          <span>YouTube</span>
+        </a>
+
+        <a
+          href="https://www.tiktok.com/@wenzyl01"
+          target="_blank"
+          class="link-card glassmorphism flex items-center p-4 rounded-xl text-white hover:bg-white hover:bg-opacity-10"
+        >
+          <i data-feather="video" class="w-5 h-5 mr-3"></i>
+          <span>TikTok </span>
+        </a>
+
+        <a
+          href="https://discord.gg/TK2jFdyq"
+          target="_blank"
+          class="link-card glassmorphism flex items-center p-4 rounded-xl text-white hover:bg-white hover:bg-opacity-10"
+        >
+          <i data-feather="message-circle" class="w-5 h-5 mr-3"></i>
+          <span>Discord</span>
+        </a>
+      </div>
+
+      <div class="mt-8 text-center">
+        <p class="text-white text-xs opacity-70">© 2025 Wengzyl Cuibellas</p>
+      </div>
+    </div>
+
+    <script>
+      feather.replace();
+
+      document.querySelectorAll(".link-card").forEach(card => {
+        card.addEventListener("mouseenter", () => {
+          card.classList.add("transform", "scale-102");
+        });
+
+        card.addEventListener("mouseleave", () => {
+          card.classList.remove("transform", "scale-102");
+        });
+      });
+    </script>
+  </body>
+</html>
